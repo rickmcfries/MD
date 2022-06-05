@@ -1,0 +1,31 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padre {
+    background-color: black;
+    width: 50vw;
+    height: 50vh;
+}
+
+.box {
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+    background-color: aqua;
+}
+
+#dos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: crimson;
+}

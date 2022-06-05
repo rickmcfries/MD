@@ -1,0 +1,12 @@
+body {
+    color: red;
+}
+
+.padre {
+    font-size: 12px;
+    color: blue;
+}
+
+.hijo {
+    font-size: 24px;
+}

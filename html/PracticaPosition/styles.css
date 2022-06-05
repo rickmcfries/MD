@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  width: 550px;
+}
+
+.container {
+  background: #1d1e22;
+  width: 180px;
+  height: 180px;
+  position: relative;
+}
+
+div[class^="element"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  color: #282828;
+  box-sizing: border-box;
+}
+
+.element1 {
+  background: #ff3c41;
+  position: absolute;
+}
+
+.element2 {
+  background: #ff3c41;
+  position: absolute;
+}
+
+.element3 {
+  background: #ff3c41;
+  position: absolute;
+}
+
+.element4 {
+  background: #10beff;
+  position: absolute;
+}
+
+.element5 {
+  background: #10beff;
+  position: absolute;
+}
+
+.element6 {
+  background: #10beff;
+  position: absolute;
+}
+
+.element7 {
+  background: #fcd100;
+  position: absolute;
+}
+
+.element8 {
+  background: #fcd100;
+  position: absolute;
+}
+
+.element9 {
+  background: #fcd100;
+  position: absolute;
+}

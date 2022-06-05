@@ -1,0 +1,17 @@
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    border: 10px solid red;
+    padding: 20px;
+    margin: 20px auto 10px;
+    background-color: black;
+}
+
+p {
+    color: white;
+}
